@@ -1,5 +1,5 @@
 import './App.css';
-import Dog from './components/003/dog.jsx';
+import Dog from './Components/003/Dog.jsx';
 
 function App() {
   return (

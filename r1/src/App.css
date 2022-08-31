@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+.dog {
+  letter-spacing: 5px;
+}
+
+h2.h2 {
+  font-size: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+}
