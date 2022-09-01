@@ -72,6 +72,16 @@ h2.h2 {
     }
 }
 
+.kv {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: coral;
+    margin: 10px;
+}
+
 button {
     align-items: center;
     background-clip: padding-box;

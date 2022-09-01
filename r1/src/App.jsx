@@ -1,5 +1,5 @@
-import './App.scss';
-import Checkbox from './Components/008/Checkbox';
+import './App.css';
+import Sq from './Components/008/Sq.jsx';
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <h1>FORMS</h1>
-                    <Checkbox />
+                    <Sq />
             </header>
         </div>
     );

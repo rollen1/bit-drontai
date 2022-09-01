@@ -1,5 +1,5 @@
 import './App.css';
-import Select from './Components/008/Checkbox';
+import Select from './Components/008/Sq.jsx';
 
 function App() {
 
