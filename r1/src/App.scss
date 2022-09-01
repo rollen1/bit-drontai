@@ -32,6 +32,7 @@
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
@@ -54,17 +55,21 @@ h2.h2 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
 
-.container div {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: skyblue;
-    color: coral;
-    margin: 10px;
+    div {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: skyblue;
+        color: coral;
+        margin: 10px;
+    }
+
+    button {
+        margin: 40px 10px;
+    }
 }
 
 button {
@@ -94,17 +99,63 @@ button {
     touch-action: manipulation;
     vertical-align: baseline;
     width: auto;
+
     &:hover,
     &:focus {
         background-color: #fb8332;
         box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
     }
+
     &:hover {
         transform: translateY(-1px);
     }
+
     &:active {
         background-color: #c85000;
         box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
         transform: translateY(0);
+    }
+}
+
+.form-container {
+    margin: 10px;
+    padding: 30px 40px 40px;
+    border: 3px dashed skyblue;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h2 {
+        margin: 0 0 30px 0;
+        color: cornflowerblue;
+    }
+    input[type=text] {
+        font-size: 28px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background-color: white;
+        font-weight: bold;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    select {
+        font-size: 28px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background-color: white;
+        font-weight: bold;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    button {
+        margin-top: 10px;
+    }
+
+    label {
+        cursor: pointer;
+        user-select: none;
     }
 }

@@ -1,15 +1,13 @@
 import './App.scss';
-import Checkbox from './Components/008/Checkbox';
+import Squares from './Components/006/Squares';
 
 function App() {
-
-
 
     return (
         <div className="App">
             <header className="App-header">
-                <h1>FORMS</h1>
-                    <Checkbox />
+            
+            <Squares />
             </header>
         </div>
     );
