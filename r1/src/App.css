@@ -225,4 +225,8 @@ button:active {
       -ms-user-select: none;
           user-select: none;
 }
+
+.form-container input[type=checkbox] {
+  display: none;
+}
 /*# sourceMappingURL=App.css.map */
