@@ -81,6 +81,16 @@ h2.h2 {
     color: coral;
     margin: 10px;
 }
+.ap {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: coral;
+    margin: 10px;
+    border-radius: 50%;
+}
 
 button {
     align-items: center;
@@ -113,6 +123,7 @@ button {
     &:hover,
     &:focus {
         background-color: #fb8332;
+        // background-color: aquamarine;
         box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
     }
 
@@ -172,4 +183,84 @@ button {
     input[type=checkbox] {
         display: none;
     }
+}
+
+.container9 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 346px;
+    height: 346px;
+    border: 3px dashed skyblue;
+    margin: 20px;
+
+    div {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}
+
+.containerBin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 230px;
+    border: 3px dashed skyblue;
+    margin: 20px;
+    padding: 9px;
+
+    div {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border: 1px solid white;
+        margin: 5px 0;
+    }
+}
+
+.layout-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+.layout-left {
+    width: 40%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid gray;
+    input {
+        margin-top: 10px;
+    }
+}
+
+.layout-right {
+    width: 60%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gray;
+}
+}
+
+.star {
+    margin: 20px;
+    padding: 20px;
+    border: 3px dotted crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: skyblue;
+    font-size: 30px;
 }
