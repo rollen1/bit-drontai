@@ -1,4 +1,4 @@
-import { ADD_ONE, CHANGE_COLOR, REMOVE_ONE } from '../Constants/actions';
+import { ADD_ONE, CHANGE_COLOR, FONT_SIZE, REMOVE_ONE } from '../Constants/actions';
 import { ADD_TWO, REMOVE_TWO } from '../Constants/actions';
 import { ADD_FIVE, REMOVE_FIVE } from '../Constants/actions';
 
@@ -41,5 +41,11 @@ export function rem5() {
 export function changeColor() {
     return {
         type: CHANGE_COLOR
+    }
+}
+
+export function randFont() {
+    return {
+        type: FONT_SIZE
     }
 }
