@@ -30,7 +30,7 @@ function count(state, action) {
             newState.fontSize = rand(10, 45);
             break;
         case BORDER_ON:
-            newState.border = !newState.border
+            newState.border = !newState.border;
             break;
         default:
     }

@@ -7,3 +7,5 @@ export const REMOVE_FIVE = 6;
 export const CHANGE_COLOR = 7;
 export const FONT_SIZE = 8;
 export const BORDER_ON = 9;
+export const ADD_SQ = 10;
+export const REM_SQ = 11;

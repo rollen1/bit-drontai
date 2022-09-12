@@ -1,4 +1,4 @@
-import { ADD_ONE, CHANGE_COLOR, FONT_SIZE, REMOVE_ONE, BORDER_ON } from '../Constants/actions';
+import { ADD_ONE, CHANGE_COLOR, FONT_SIZE, REMOVE_ONE, BORDER_ON, ADD_SQ, REM_SQ } from '../Constants/actions';
 import { ADD_TWO, REMOVE_TWO } from '../Constants/actions';
 import { ADD_FIVE, REMOVE_FIVE } from '../Constants/actions';
 
@@ -53,5 +53,17 @@ export function randFont() {
 export function borderOn() {
     return {
         type: BORDER_ON
+    }
+}
+
+export function addSq() {
+    return {
+        type: ADD_SQ
+    }
+}
+
+export function remSq() {
+    return {
+        type: REM_SQ
     }
 }
