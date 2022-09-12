@@ -1,4 +1,4 @@
-import { ADD_ONE, ADD_TWO, REMOVE_FIVE, REMOVE_ONE, REMOVE_TWO, ADD_FIVE, CHANGE_COLOR, FONT_SIZE } from "../Constants/actions";
+import { ADD_ONE, ADD_TWO, REMOVE_FIVE, REMOVE_ONE, REMOVE_TWO, ADD_FIVE, CHANGE_COLOR, FONT_SIZE, BORDER_ON} from "../Constants/actions";
 import randColor from "../Functions/randColor";
 import rand from "../Functions/rand";
 
@@ -28,6 +28,9 @@ function count(state, action) {
             break;
         case FONT_SIZE:
             newState.fontSize = rand(10, 45);
+            break;
+        case BORDER_ON:
+            newState.border = !newState.border
             break;
         default:
     }
