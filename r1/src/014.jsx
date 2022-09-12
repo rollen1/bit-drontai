@@ -1,14 +1,13 @@
-import './App.css';
-import Count from './Components/016/Count';
-
+import './App.scss';
+import T7 from './Components/014/T7';
 
 function App() {
 
     return (
         <div className="App">
             <header className="App-header">
-            <h1>UseReducer</h1>
-            <Count />
+            <h1>Total Recall 1</h1>
+            <T7 />
             </header>
         </div>
     );

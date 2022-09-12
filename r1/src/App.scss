@@ -265,3 +265,14 @@ button {
     color: skyblue;
     font-size: 30px;
 }
+
+.container31 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 140px;
+    border: 3px dashed skyblue;
+    margin: 20px;
+}
