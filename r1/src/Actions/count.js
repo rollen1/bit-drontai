@@ -1,6 +1,4 @@
-import { ADD_ONE, CHANGE_COLOR, FONT_SIZE, REMOVE_ONE, BORDER_ON, ADD_SQ, REM_SQ } from '../Constants/actions';
-import { ADD_TWO, REMOVE_TWO } from '../Constants/actions';
-import { ADD_FIVE, REMOVE_FIVE } from '../Constants/actions';
+import { ADD_5, ADD_ONE, ADD_SQ, ADD_T, BORDER, FONT_SIZE, RA_CO, REMOVE_5, REMOVE_ONE, REMOVE_T, REM_SQ } from '../Constants/actions';
 
 export function add1() {
     return {
@@ -16,43 +14,43 @@ export function rem1() {
 
 export function add2() {
     return {
-        type: ADD_TWO
+        type: ADD_T
     }
 }
 
 export function rem2() {
     return {
-        type: REMOVE_TWO
+        type: REMOVE_T
     }
 }
 
 export function add5() {
     return {
-        type: ADD_FIVE
+        type: ADD_5
     }
 }
 
 export function rem5() {
     return {
-        type: REMOVE_FIVE
+        type: REMOVE_5
     }
 }
 
-export function changeColor() {
+export function randC() {
     return {
-        type: CHANGE_COLOR
+        type: RA_CO
     }
 }
 
-export function randFont() {
+export function font() {
     return {
         type: FONT_SIZE
     }
 }
 
-export function borderOn() {
+export function border() {
     return {
-        type: BORDER_ON
+        type: BORDER
     }
 }
 
