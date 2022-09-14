@@ -1,13 +1,13 @@
 import './App.scss';
-import Api2 from './Components/018/Api2';
+import Ten from './Components/017/Ten';
 
 function App() {
 
     return (
         <div className="App">
             <header className="App-header">
-            <h1>API CAll</h1>
-            <Api2></Api2>
+            <h1>UseReducer</h1>
+            <Ten />
             </header>
         </div>
     );

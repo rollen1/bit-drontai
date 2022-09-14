@@ -56,6 +56,11 @@ h2.h2 {
     align-items: center;
     flex-wrap: wrap;
 
+    h4 {
+        color: orangered;
+        margin: 10px;
+    }
+
     div {
         width: 100px;
         height: 100px;
