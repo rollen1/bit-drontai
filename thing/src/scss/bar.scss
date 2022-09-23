@@ -2,6 +2,10 @@
     h1 {
         margin: 30px 10px;
     }
+    .bin {
+        flex-direction: column;
+        display: flex;
+    }
     .glass {
         box-sizing: border-box;
         width: 150px;
@@ -10,10 +14,17 @@
         border-top: none;
         display: flex;
         align-items: flex-end;
+        margin: 20px;
         .fill {
             width: 142px;
             height: 330px;
             background-color: orange;
         }
+    }
+    .table {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
     }
 }
