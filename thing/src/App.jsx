@@ -10,6 +10,7 @@ import Home from './Components/Home';
 
 import ThingsMain from './Components/things/Main';
 import OwnersMain from './Components/owners/Main';
+import DrinksMain from './Components/drinks/Main';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/things" element={<ThingsMain />} />
           <Route path="/owners" element={<OwnersMain />} />
+          <Route path="/drinks" element={<DrinksMain />} />
         </Routes>
 
       </MainContext.Provider>

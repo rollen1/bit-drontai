@@ -1,0 +1,19 @@
+.bar {
+    h1 {
+        margin: 30px 10px;
+    }
+    .glass {
+        box-sizing: border-box;
+        width: 150px;
+        height: 350px;
+        border: 4px solid black;
+        border-top: none;
+        display: flex;
+        align-items: flex-end;
+        .fill {
+            width: 142px;
+            height: 330px;
+            background-color: orange;
+        }
+    }
+}
