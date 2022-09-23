@@ -6,8 +6,7 @@ function List() {
 
     const { things } = useContext(DataContext);
 
-    if (things?.length === 0) {
-
+    if (things?.filter(t => !t.deleted).length === 0) {
         return (
             <div className="card">
                 <div className="top">
@@ -27,7 +26,7 @@ function List() {
             </div>
             <div className="body">
                 {
-                    things?.map(t => <Row key={t.id} thing={t} />)
+                    things?.map(t => t.deleted ? null : <Row key={t.id} thing={t} />)
                 }
             </div>
         </div>

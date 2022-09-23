@@ -28,6 +28,17 @@
         width: calc(100% - 10px);
         letter-spacing: 0.5px;
     }
+    select {
+        font-size: 18px;
+        border: none;
+        font-weight: 400;
+        outline: none;
+        padding: 5px;
+        background-color: lightcoral;
+        color: white;
+        width: 100%;
+        letter-spacing: 0.5px;
+    }
     input[type=color] {
         border: none;
         outline: none;

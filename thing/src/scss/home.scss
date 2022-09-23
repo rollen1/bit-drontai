@@ -1,0 +1,29 @@
+.home {
+    h1 {
+        margin: 30px 10px;
+    }
+    .home-list {
+        list-style: none;
+        padding: 0;
+        margin: 10px;
+        &__owner {
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+            background-color: skyblue;
+            &__list {
+                background-color: white;
+                list-style: none;
+                padding: 0;
+                &__thing {
+                    font-size: 20px;
+                    padding: 10px;
+                    color: black;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

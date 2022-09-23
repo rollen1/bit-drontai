@@ -1,17 +1,16 @@
 import { useContext } from "react";
 import DataContext from "./DataContext";
-import Row from "./Row";
+import BinRow from "./BinRow";
 
-function List() {
+function Bin() {
 
-    const { things } = useContext(DataContext);
+    const { owners } = useContext(DataContext);
 
-    if (things?.length === 0) {
-
+    if (owners?.filter(o => o.deleted).length === 0) {
         return (
-            <div className="card">
+            <div className="card mt">
                 <div className="top">
-                    List of Things
+                    Owners in Recycle Bin
                 </div>
                 <div className="body">
                     <h3>Empty</h3>
@@ -21,17 +20,17 @@ function List() {
     }
 
     return (
-        <div className="card">
+        <div className="card mt">
             <div className="top">
-                List of Things
+                Owners in Recycle Bin
             </div>
             <div className="body">
                 {
-                    things?.map(t => <Row key={t.id} thing={t} />)
+                    owners?.map(o => o.deleted ? <BinRow key={o.id} owner={o} /> : null)
                 }
             </div>
         </div>
     )
 }
 
-export default List;
+export default Bin;
